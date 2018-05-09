@@ -61,4 +61,26 @@ $(document).ready(function(){
 		$('.social-media').css('visibility','visible')
 	　　　},{offset:'95%'});
 
+	// nav link click animation 
+
+	$('a[href^="#"]').on('click',function(e){ //當a href為#開頭的標籤被點擊執行
+		e.preventDefault();
+
+		var target = this.hash; //獲取此a的href
+		var $target = $(target);
+
+		//Scroll and show hash
+		// $('html,body').animate({
+		// 	'scrollTop': $target.offset().top
+		// },1500,'easeOutExpo',function(){
+		// 	window.location.hash = target;
+		// });
+
+		//Scroll and don't show hash
+		$('html, body').animate({
+			'scrollTop': $target.offset().top
+		},1000,'easeOutExpo');
+
+	});
+
 });

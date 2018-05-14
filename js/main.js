@@ -49,17 +49,17 @@ $(document).ready(function(){
 		$('#footer .col-sm-3').css('visibility','visible')
 	　　　},{offset:'95%'});
 
-	$('.copyright').css('visibility','hidden')
-	$('.copyright').waypoint(function(){
-		$(this).addClass('fadeInLeft');
-		$('.copyright').css('visibility','visible')
-	　　　},{offset:'95%'});
+	// $('.copyright').css('visibility','hidden')
+	// $('.copyright').waypoint(function(){
+	// 	$(this).addClass('fadeInLeft');
+	// 	$('.copyright').css('visibility','visible')
+	// 　　　},{offset:'95%'});
 
-	$('.social-media').css('visibility','hidden')
-	$('.social-media').waypoint(function(){
-		$(this).addClass('fadeInRight');
-		$('.social-media').css('visibility','visible')
-	　　　},{offset:'95%'});
+	// $('.social-media').css('visibility','hidden')
+	// $('.social-media').waypoint(function(){
+	// 	$(this).addClass('fadeInRight');
+	// 	$('.social-media').css('visibility','visible')
+	// 　　　},{offset:'95%'});
 
 	// nav link click animation 
 
